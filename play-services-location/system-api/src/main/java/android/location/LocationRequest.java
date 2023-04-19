@@ -193,6 +193,7 @@ public final class LocationRequest implements Parcelable {
      *
      * @return an accuracy or power constant
      */
+    @SuppressWarnings("WrongConstant")
     public int getQuality() {
         return 0;
     }
